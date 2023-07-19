@@ -138,64 +138,6 @@ color: white;
 
 
 
-/* Contact Section Start  */
-
-.contact-box {
-  display: flex;
-  gap: 30px;
-  margin: 55px 0 70px;
-}
-.contact-box .single-box {
-  flex: 1;
-  border-radius: 30px;
-  text-align: center;
-  border-top-right-radius: 0px;
-  border-bottom-left-radius: 0;
-  box-shadow: 0 0 12px #00000082;
-  padding: 30px 0;
-  color: var(--text-color);
-  transition: 0.3s;
-  min-height: 224px;
-}
-.single-box h3 {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 15px 0 8px;
-}
-.single-box i {
-  font-size: 60px;
-}
-
-.contact-form {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.contact-form form input,
-textarea {
-  width: 100%;
-  padding: 15px 25px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  outline: none;
-}
-.contact-form form input:focus,
-textarea:focus {
-  box-shadow: 0 0 10px var(--btn-color);
-}
-.contact-form .btn {
-  padding: 16px 80px;
-  font-size: 18px;
-}
-
-.bt{
-  background: var(--btn-color);
-  padding: 10px;
-  border-radius: 5%;
-}
-.trend{
-  margin-top: 40px;
-}
 
 header {
  
