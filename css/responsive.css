@@ -1,0 +1,1009 @@
+/* Large devices == desktops, less than 1200px */
+@media (min-width: 1099.98px) {
+
+  .hero-content h1 {
+    font-size: 48px;
+  }
+    
+.action-hover:hover{
+  border: 1px solid pink;
+  padding: 10px;
+  border-radius: 40px;
+}
+   .fun-o{
+    display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin-left: 50px;
+      margin-right: 50px;
+   }  
+
+    .action-g{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      margin-left: 100px;
+      margin-right: 100px;
+    } 
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color:black;
+  /* Set the color of your text */
+}
+.ic{
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.image-container1 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container1:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color:black;
+  /* Set the color of your text */
+}
+.ic{
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.image-container2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container2:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color:black;
+  /* Set the color of your text */
+}
+.ic{
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.image-container3 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container3:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color:black;
+  /* Set the color of your text */
+}
+.ic{
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ 
+}
+
+/* Medium devices == tablets, less than 992px */
+@media only screen and (max-width: 991.98px) {
+  .container {
+    max-width: 768px; 
+  }
+.fun-o {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ .action-g {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin-left: 100px;
+   margin-right: 100px;
+ }
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color: black;
+  /* Set the color of your text */
+}
+
+.ic {
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image-container1 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container1:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color: black;
+  /* Set the color of your text */
+}
+
+.ic {
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image-container2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container2:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color: black;
+  /* Set the color of your text */
+}
+
+.ic {
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.image-container3 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* Set the desired height for your image container */
+  background-image: url("../image/Rectangle\ 6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Dark overlay color */
+  transition: opacity 0.3s ease;
+  /* Add a transition for a smooth effect */
+}
+
+.image-container3:hover .content {
+  opacity: 1;
+}
+
+.play-button {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  /* Set the play button background color */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  /* You can customize the play button appearance using additional CSS */
+}
+
+.text {
+
+  color: black;
+  /* Set the color of your text */
+}
+
+.ic {
+  background-color: #fff;
+  color: black;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+/* Additional styles for the text */
+.text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+  nav ul li a::before,
+ 
+  .d-none,
+  .fa-shopping-cart {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    z-index: 20;
+  }
+  #hero .container {
+    gap: 40px;
+    flex-direction: column-reverse;
+  }
+  .client-logo .container {
+    padding: 0;
+  }
+    .ff {
+      margin-left: 10px;
+    }
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .single-box h3 {
+    font-size: 20px;
+  }
+  .single-box i {
+    font-size: 50px;
+  }
+  .sub-menu.drop-down.closed {
+    display: none;
+  }
+  .main-menu.translate {
+    left: 0%;
+  }
+  .influencer-ads{
+    width: 100%;
+  }
+}
+
+/*  Small devices == landscape phones, less than 768px */
+@media (max-width: 667.98px) {
+  .container {
+    max-width: 578px;
+     
+  }
+    .fun-o {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 50px;
+      margin-right: 50px;
+     
+    }
+  
+     .action-g {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+     margin-right: 10px;
+     margin-left: -1px;
+     }
+  
+    .image-container {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      /* Set the desired height for your image container */
+      background-image: url("../image/Rectangle\ 4.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 30px;
+    }
+  
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Dark overlay color */
+      transition: opacity 0.3s ease;
+      /* Add a transition for a smooth effect */
+    }
+  
+    .image-container:hover .content {
+      opacity: 1;
+    }
+  
+    .play-button {
+      width: 100px;
+      height: 100px;
+      background-color: #fff;
+      /* Set the play button background color */
+      border-radius: 50%;
+      margin-bottom: 20px;
+      /* You can customize the play button appearance using additional CSS */
+    }
+  
+    .text {
+  
+      color: black;
+      /* Set the color of your text */
+    }
+  
+    .ic {
+      background-color: #fff;
+      color: black;
+      padding: 13px;
+      border-radius: 50%;
+    }
+  
+    /* Additional styles for the text */
+    .text h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .image-container1 {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      /* Set the desired height for your image container */
+      background-image: url("../image/Rectangle\ 5.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 30px;
+    }
+  
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Dark overlay color */
+      transition: opacity 0.3s ease;
+      /* Add a transition for a smooth effect */
+    }
+  
+    .image-container1:hover .content {
+      opacity: 1;
+    }
+  
+    .play-button {
+      width: 100px;
+      height: 100px;
+      background-color: #fff;
+      /* Set the play button background color */
+      border-radius: 50%;
+      margin-bottom: 20px;
+      /* You can customize the play button appearance using additional CSS */
+    }
+  
+    .text {
+  
+      color: black;
+      /* Set the color of your text */
+    }
+  
+    .ic {
+      background-color: #fff;
+      color: black;
+      padding: 13px;
+      border-radius: 50%;
+    }
+  
+    /* Additional styles for the text */
+    .text h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .image-container2 {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      /* Set the desired height for your image container */
+      background-image: url("../image/Rectangle\ 7.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 30px;
+    }
+  
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Dark overlay color */
+      transition: opacity 0.3s ease;
+      /* Add a transition for a smooth effect */
+    }
+  
+    .image-container2:hover .content {
+      opacity: 1;
+    }
+  
+    .play-button {
+      width: 100px;
+      height: 100px;
+      background-color: #fff;
+      /* Set the play button background color */
+      border-radius: 50%;
+      margin-bottom: 20px;
+      /* You can customize the play button appearance using additional CSS */
+    }
+  
+    .text {
+  
+      color: black;
+      /* Set the color of your text */
+    }
+  
+    .ic {
+      background-color: #fff;
+      color: black;
+      padding: 13px;
+      border-radius: 50%;
+    }
+  
+    /* Additional styles for the text */
+    .text h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .image-container3 {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      /* Set the desired height for your image container */
+      background-image: url("../image/Rectangle\ 6.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 30px;
+    }
+  
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Dark overlay color */
+      transition: opacity 0.3s ease;
+      /* Add a transition for a smooth effect */
+    }
+  
+    .image-container3:hover .content {
+      opacity: 1;
+    }
+  
+    .play-button {
+      width: 100px;
+      height: 100px;
+      background-color: #fff;
+      /* Set the play button background color */
+      border-radius: 50%;
+      margin-bottom: 20px;
+      /* You can customize the play button appearance using additional CSS */
+    }
+  
+    .text {
+  
+      color: black;
+      /* Set the color of your text */
+    }
+  
+    .ic {
+      background-color: #fff;
+      color: black;
+      padding: 13px;
+      border-radius: 50%;
+    }
+  
+    /* Additional styles for the text */
+    .text h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  .footer-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+     .play-button {
+  
+       padding: 10px;
+       border-radius: 50%;
+       display: none;
+  
+     }
+  
+     .watch-later {
+       color: blue;
+       display: none;
+  
+     }
+  .hello{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+ #footer-nav{
+  font-size: 12px;
+  color: white;
+ }
+ .social-media-icon{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+ }
+.ff{
+  margin-left: 50px;
+}
+.hhh {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+  .funny-videos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 50px;
+  }
+    .play {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  .client-logo .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+  }
+  .py-80 {
+    padding: 60px 0;
+  }
+  .py-60 {
+    padding: 40px 0;
+  }
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .influencer-ads{
+    width: 100%;
+  } 
+}
+
+/*  Extra Small devices == landscape phones, less than 575px */
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+    
+  }
+     
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .client-logo .container {
+    padding: 0 30px;
+  }
+  .section-heading {
+    font-size: 34px;
+  }
+  .fas.fa-shopping-cart {
+    display: block;
+  }
+  .hero-content h1{
+    font-size: 34px;
+  }
+  .section-heading{
+    font-size: 28px;
+  }
+  .influencer-ads{
+    width: 100%;
+  }
+}
+
+/*  Extra Extra Small devices == landscape phones, less than 405px */
+@media (max-width: 400px) {
+  
+  .hero-content {
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 30px;
+  }
+  .hero-content p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .funny-videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .client-logo .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-heading {
+    font-size: 25px;
+  }
+  .section-heading {
+    padding-bottom: 14px;
+  }
+  .section-heading::before,
+  .section-heading::after {
+    width: 80%;
+  }
+  .section-heading::after {
+    width: 32%;
+  }
+  .row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .influencer-ads{
+    width: 100%;
+  }
+  .contact-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .btn {
+    padding: 13px 35px;
+    font-size: 15px;
+  }
+  .contact-form .btn {
+    padding: 10px 60px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:300px){
+    .logo {
+        font-size: 19px;
+        text-align: right;
+    }
+}
